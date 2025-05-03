@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/style.css">
     <script src="./Assets/script.js"></script>
-    <link rel="shortcut icon" href="retenfort icon.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title> Retenfort | Home </title>
 
 </head>
@@ -17,30 +17,29 @@
     <header>
 
         <!-- Contatos -->
-
-        <div>
+        <div class="Header-Contact">
 
             <a href="tel:+5511955714648"><i class='bx bxs-phone' style='color:#FFFFFF' width="32px" height="32px"></i> (11) 95571-4648 </a>
             <a href="mailto:vendas@retenfort.com.br"><i class='bx bxs-envelope' style='color:#FFFFFF' ></i> vendas@retenfort.com.br </a>
             <a href="https://bit.ly/retenfort"><i class='bx bxl-whatsapp' style='color:#FFF' ></i> (11) 94821-7603 </a>
 
         </div>
-
+        
         <!-- Redes Sociais -->
-
-        <div>
+        <div class="Header-Social">
 
             <a href="https://www.instagram.com/retenfort.oficial/"><i class='bx bxl-instagram-alt' style='color:#FFF'  ></i></a>
-            <a href="#"><i class='bx bxl-facebook-square' style='color:#FFF'></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100076517660755"><i class='bx bxl-facebook-square' style='color:#FFF'></i></a>
             <a href="https://www.linkedin.com/in/retenfort-vedações-técnicas-6158171b5/"><i class='bx bxl-linkedin-square' style='color:#FFF' ></i></a>
 
         </div>
 
     </header>
 
+    <!-- Barra de Navegação -->
     <nav>
 
-        <a href="index.html"><img src="./Assets/Imgs/retenfort_logo_resized.png" alt="Logo da Empresa"></a>
+        <a href="index.html"><img src="./Assets/Imgs/logo.png" alt="Logo da Empresa"></a>
         <a href="index.html"> Home </a>
         <a href="about.html"> Quem Somos </a>
         <a href="products.html"> Produtos </a>
@@ -52,24 +51,27 @@
 
         <!-- Carrosel de Imagens -->
 
-            <img src="./Assets/Imgs/Home/Carrosel/orings 3.jpg" alt="">
+            <img src="./Assets/Imgs/Home/Carrosel/Carrosel1.jpg" alt="Aneis-Oring">
             <span> Tradição, Tecnologia e Precisão a Serviço da Industria </span>
 
         
         <!-- Quem Somos -->
-
-        <section>
+        <section id="Home-About">
             
-            <!-- Titulo da Section -->
+            <!-- Titulo -->
             <h1> RETENFORT VEDAÇÕES TÉCNICAS </h1>
 
             <!-- Texto Principal -->
+            <div id="Main-Text">
+
             <p> Com 32 anos de experiência no mercado, a Retenfort tem se destacado como uma referência no setor industrial,    especializada em peças de borracha e soluções técnicas sob medida para diversos segmentos.
                 Nossa expertise permite fornecer peças conforme amostra ou desenho, garantindo que cada solução esteja perfeitamente alinhada às demandas específicas de sua aplicação.
                  </p>
 
+            </div>
+
             <!-- Texto sobre a Equipe -->
-            <div>
+            <div id="Home-Team">
 
                 <i class='bx bxs-hard-hat' style='color:#17174a'  ></i>
                 <p> Equipe altamente capacitada, oferecendo soluções técnicas inovadoras e eficazes, contribuindo para a eficiência e durabilidade dos processos industriais.</p>
@@ -77,7 +79,7 @@
             </div>
 
             <!-- Texto sobre a Experiencia -->
-            <div>
+            <div id="Home-Experience">
 
                 <i class='bx bx-hourglass' style='color:#17174a' ></i>
                 <p> Ao longo de mais de três décadas, acumulamos uma vasta experiência que nos permite compreender as exigências de todos os setores da indústria. </p>
@@ -85,7 +87,7 @@
             </div>
             
             <!-- Texto sobre a Qualidade -->
-            <div>
+            <div id="Home-Quality">
 
                 <i class='bx bxs-truck' style='color:#17174a' ></i>
                 <p> A Retenfort se compromete a fornecer produtos de alta qualidade, com prazos de entrega ágeis e atendimento personalizado. </p>
@@ -98,28 +100,38 @@
         </section>
 
         <!-- Segmentos -->
+        <section id="Home-Segmentos">
 
-        <section>
-
-            <!-- Titulo da Section-->
+            <!-- Titulo -->
             <h1> Segmentos </h1>
 
-            <!-- Texto Introdutivo-->
-            <p> Nós atuamos em vários segmentos presentes no mercado de hoje </p>
+            <div id="Cards">
 
-            <!-- Imagens dos Segmentos-->
-            <img src="./Assets/Imgs/Home/Segmentos/aeronautica.jpg" alt="Segmento da Aeronáutica">
-            <img src="./Assets/Imgs/Home/Segmentos/580.jpg" alt="Segmento Automotivo ">
-            <img src="./Assets/Imgs/Home/Segmentos/2148926620.jpg" alt="Segmento de Química">
-            <img src="./Assets/Imgs/Home/Segmentos/2150713380.jpg" alt="Segmento Alimentício">
-            <img src="./Assets/Imgs/Home/Segmentos/2148963960.jpg" alt="Segmento da Saúde">
-            <img src="./Assets/Imgs/Home/Segmentos/60189.jpg" alt="Segmento da Mineração">
+                <!-- Texto Introdutivo-->
+                <p> Nós atuamos em vários segmentos presentes no mercado de hoje </p>
 
-            <!-- Texto para chamar o usuário-->
+                <!-- Imagens dos Segmentos-->
+                <div id="Cards-Images">
+            
+                    <img src="./Assets/Imgs/Home/Segmentos/Aeronautica.jpg" alt="Segmento da Aeronáutica">
+                    <img src="./Assets/Imgs/Home/Segmentos/Automotiva.jpg" alt="Segmento Automotivo ">
+                    <img src="./Assets/Imgs/Home/Segmentos/Quimica.jpg" alt="Segmento de Química">
+                    <img src="./Assets/Imgs/Home/Segmentos/Alimenticia.jpg" alt="Segmento Alimentício">
+                    <img src="./Assets/Imgs/Home/Segmentos/Saude.jpg" alt="Segmento da Saúde">
+                    <img src="./Assets/Imgs/Home/Segmentos/Mineracao.jpg" alt="Segmento da Mineração">
+
+                </div>
+
+            </div>
+
+            <!-- Texto para chamar o usuário e Botão para a página Produtos -->
+            <div id="Call-Text">
+
             <h1> Quer Conhecer Mais Sobre Os Nossos Produtos  </h1>
 
-            <!-- Botão para a página Produtos-->
             <button type="submit"> CLIQUE AQUI </button>
+
+            </div>
 
         </section>
 
@@ -127,29 +139,52 @@
 
     <footer>
 
-        <h1> Entre em Contato Conosco! </h1>
+        <!-- Meios de Contato -->
+        <div id="Footer-Contact">
+            
+            <!-- Titulo -->
+            <h1> Entre em Contato Conosco! </h1>
 
-        <p> A Retenfort Vedações Técnicas é sua parceira na busca por soluções de alta qualidade em vedação. </p>
+            <!-- Texto -->
+            <p> A Retenfort Vedações Técnicas é sua parceira na busca por soluções de alta qualidade em vedação. </p>
 
-        <a href="https://maps.app.goo.gl/aNuyuoXAJkfvpxR48"><i class='bx bxs-map' style='color:#FFF'></i> Av. Fagundes Filho, 191 – Torre Houston – Conj. 146 – Saude – São Paulo – S.P. </a>
-        <a href="tel:+5511955714648"><i class='bx bxs-phone' style='color:#FFF' ></i> (11) 95571-4648 / <a href="tel:+551195571-8276"> (11) 95571-8276 / </a> <a href="tel:+5511955710322"> (11) 95571-0322 </a> </a>
-        <a href="mailto:vendas@retenfort.com.br"><i class='bx bxs-envelope' style='color:#FFF' ></i> vendas@retenfort.com.br </a>
-        <a href="https://bit.ly/retenfort"><i class='bx bxl-whatsapp' style='color:#FFF' ></i> (11) 94821-7603 </a>
+            <!-- Contatos -->
+            <a href="https://maps.app.goo.gl/aNuyuoXAJkfvpxR48"><i class='bx bxs-map' style='color:#FFF'></i> Av. Fagundes Filho, 191 – Torre Houston – Conj. 146 – Saude – São Paulo – S.P. </a>
+            <a href="tel:+5511955714648"><i class='bx bxs-phone' style='color:#FFF' ></i> (11) 95571-4648 / <a href="tel:+551195571-8276"> (11) 95571-8276 / </a> <a href="tel:+5511955710322"> (11) 95571-0322 </a> </a>
+            <a href="mailto:vendas@retenfort.com.br"><i class='bx bxs-envelope' style='color:#FFF' ></i> vendas@retenfort.com.br </a>
+            <a href="https://bit.ly/retenfort"><i class='bx bxl-whatsapp' style='color:#FFF' ></i> (11) 94821-7603 </a>
 
-        <h1> Links Rápidos </h1>
+        </div>
 
-        <a href="index.html"> Home </a>
-        <a href="about.html"> Quem Somos </a>
-        <a href="products.html"> Produtos </a>
-        <a href="contact.html"> Fale Conosco </a>
+        <!-- Links Rápidos -->
+        <div id="Footer-Links">
 
-        <h1> Redes Sociais </h1>
+            <!-- Titulo -->
+            <h1> Links Rápidos </h1>
 
-        <a href="https://www.instagram.com/retenfort.oficial/"><i class='bx bxl-instagram-alt' style='color:#FFF'  ></i> Instagram </a>
-        <a href="#"><i class='bx bxl-facebook-square' style='color:#FFF'></i> Facebook </a>
-        <a href="https://www.linkedin.com/in/retenfort-vedações-técnicas-6158171b5/"><i class='bx bxl-linkedin-square' style='color:#FFF' > LinkedIn </i></a>
+            <!-- Links -->
+            <a href="index.html"> Home </a>
+            <a href="about.html"> Quem Somos </a>
+            <a href="products.html"> Produtos </a>
+            <a href="contact.html"> Fale Conosco </a>
+
+        </div>
+
+        <!-- Redes Sociais -->
+        <div id="Footer-Social">
+
+            <!-- Titulo -->
+            <h1> Redes Sociais </h1>
+
+            <!-- Redes Sociais -->
+            <a href="https://www.instagram.com/retenfort.oficial/"><i class='bx bxl-instagram-alt' style='color:#FFF'  ></i> Instagram </a>
+            <a href="https://www.facebook.com/profile.php?id=100076517660755"><i class='bx bxl-facebook-square' style='color:#FFF'></i> Facebook </a>
+            <a href="https://www.linkedin.com/in/retenfort-vedações-técnicas-6158171b5/"><i class='bx bxl-linkedin-square' style='color:#FFF' > LinkedIn </i></a>
+
+        </div>
 
     </footer>
+
 
 
 </body>
